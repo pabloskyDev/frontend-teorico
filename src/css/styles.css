@@ -9,9 +9,56 @@
 
 .container {
     display: grid;
-    grid-template-columns: 3, 1fr;
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: repeat(2, 300px);
+    gap: 10px 10px;
+    justify-content: center;
+    align-content: center;
 }
 
-.container .item {
-    border: 1px solid #000;
+.item {
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.item:nth-child(1) {
+    background-color: #F2D7D9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item:nth-child(2) {
+    background-color: #DAEAF1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item:nth-child(3) {
+    background-color: #FAF0D7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item:nth-child(4) {
+    background-color: #DAE5D0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item:nth-child(5) {
+    background-color: #E2C2B9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item:nth-child(6) {
+    background-color: #C1CFC0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
