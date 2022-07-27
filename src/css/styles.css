@@ -118,6 +118,44 @@ body {
     padding: 10px;
     width: 50%;
     text-align: justify;
+    position: relative;
+}
+
+.main article .info-1 {
+    padding: 20px;
+    text-align: center;
+}
+
+.main article .info-2 {
+    height: 220px;
+    overflow-x: auto;
+    background-color: #DAEAF1;
+    position: relative;
+    top: 10%;
+}
+
+.main article .info-2 p:nth-child(4){
+    width: 200px;
+    height: 120px;
+    background-color: #E2C2B9;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.info-2 nav {
+    width: 40%;
+    height: 60px;
+    background: #3D3C42;
+    color: #fff;
+    position: fixed;
+    top: 35%;
+}
+
+.info-2 ul h2{
+    position: sticky;
+    top: 0;
+    color: #0000ff;
 }
 
 .main section {
