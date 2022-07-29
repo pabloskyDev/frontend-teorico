@@ -190,3 +190,9 @@ body {
 .main section {
     width: 20%;
 }
+
+/* Card */
+.bg-card {
+    background-color: #FAF0D7;
+    padding: 10px;
+}
