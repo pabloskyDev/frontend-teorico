@@ -196,3 +196,40 @@ body {
     background-color: #FAF0D7;
     padding: 10px;
 }
+
+.sec-card {
+    padding: 20px;
+    height: 96vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 25%;
+    height: 500px;
+    background-color: #A25B5B;
+    color: #ffffff;
+    margin: auto;
+    align-self: center;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card p {
+    text-align: center;
+    padding: 5px;
+}
+
+.card p:nth-child(2){
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.card p:nth-child(3) {
+    color: #D0C9C0;
+}
