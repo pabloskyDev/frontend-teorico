@@ -116,17 +116,19 @@ body {
 .bg-card {
     background-color: #FAF0D7;
     padding: 10px;
+    display: flex;
 }
 .sec-card {
+    width: 30%;
     padding: 20px;
-    height: 96vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .card {
-    width: 25%;
-    height: 500px;
+    position: relative;
+    width: 100%;
+    height: 600px;
     background-color: #A25B5B;
     color: #ffffff;
     margin: auto;
@@ -138,15 +140,68 @@ body {
     width: 100%;
 }
 .card p {
-    text-align: center;
+    text-align: justify;
     padding: 5px;
+    margin: 10px;
+    font-size: 16px;
 }
-.card p:nth-child(2){
+.card p:nth-child(3){
     text-transform: uppercase;
     font-weight: bold;
+    margin-top: 50px;
+    text-align: center;
 }
-.card p:nth-child(3) {
-    color: #D0C9C0;
+.card p:nth-child(4) {
+    color: #DAE5D0;
+}
+.card .profile-vintage {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    left: 35%;
+    top: 40%;
+    border: #fff 3px solid;
+}
+.profile-vintage img {
+    width: 100%;
+}
+.vintage-ubi {
+    display: flex;
+    justify-content: center;
+    color: #000;
+}
+.vintage-redes {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    gap: 20px;
+}
+.vintage-redes a {
+    width: 20px;
+    height: 20px;
+}
+.vintage-redes a img {
+    width: 100%;
+}
+
+/* Card2 */
+.sec-card2 {
+    width: 40%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Card3 */
+.sec-card3 {
+    width: 30%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Z-index */
