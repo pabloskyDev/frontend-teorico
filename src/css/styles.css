@@ -24,6 +24,8 @@ body {
 }
 
 .item {
+    position: relative;
+    perspective: 1000px;
     border-radius: 10px;
     padding: 10px;
     box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
@@ -137,7 +139,7 @@ body {
 }
 
 .main article {
-    width: 80%;
+    width: 100%;
     display: flex;
     flex-direction: row;
     gap: 10px;
@@ -187,10 +189,6 @@ body {
     color: #0000ff;
 }
 
-.main section {
-    width: 20%;
-}
-
 /* Card */
 .bg-card {
     background-color: #FAF0D7;
@@ -233,3 +231,5 @@ body {
 .card p:nth-child(3) {
     color: #D0C9C0;
 }
+
+/* Fin Card */
