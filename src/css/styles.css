@@ -354,14 +354,24 @@ body {
 .main-estructura {
     width: 80%;
     margin: 0 auto;
-    display: flex;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
 }
 .main-estructura figure {
-    width: 30%;
-    height: 30vh;
+    width: 90%;
+    border-radius: 20%;
+    overflow: hidden;
+    margin: 0 auto;
 }
 .main-estructura figure img {
     width: 100%;
+}
+.main-estructura figure figcaption {
+    text-align: center;
+    font-weight: 600;
 }
 
 /* Ir hacia atrás */
@@ -380,22 +390,33 @@ body {
     .main-responsive {
         background-color: #C1CFC0;
     }
-    .principal {
-        position: fixed;
-        width: 40px;
-        height: 40px;
-        bottom: 10px;
-        right: 10px;
+    .main-estructura {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        gap: 10px;
     }
 }
 @media only screen and (min-width: 481px) and (max-width: 767px){
     .main-responsive {
         background-color: #DAEAF1;
     }
+    .main-estructura {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 10px;
+    }
 }
 @media only screen and (min-width: 768px) and (max-width: 1023px){
     .main-responsive {
         background-color: #E2C2B9;
+    }
+    .main-estructura {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 10px;
     }
 }
 @media only screen and (min-width: 1024px){
