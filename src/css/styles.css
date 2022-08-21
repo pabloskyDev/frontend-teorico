@@ -8,8 +8,12 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+html {
+    font-size: 62.5%;
+}
+
 body {
-    font-size: 18px;
+    font-size: 1.8rem;
     background-color: #3D3C42;
 }
 
@@ -144,7 +148,7 @@ body {
     text-align: justify;
     padding: 5px;
     margin: 10px;
-    font-size: 16px;
+    font-size: 1.6rem;
 }
 .card p:nth-child(3){
     text-transform: uppercase;
@@ -231,7 +235,7 @@ body {
     align-self: center;
 }
 .projects .num-project{
-    font-size: 28px;
+    font-size: 2.8rem;
     font-weight: bold;
     color: #954cb0;
     width: 20%;
@@ -239,7 +243,7 @@ body {
     align-items: center;
 }
 .projects p {
-    font-size: 16px;
+    font-size: 1.6rem;
 }
 .card2 .card-contenido {
     width: 60%;
@@ -249,20 +253,20 @@ body {
 }
 .card-contenido h3 {
     color: #954cb0;
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 400;
     letter-spacing: 0.6px;
     padding: 10px;
 }
 .card-contenido h1 {
-    font-size: 28px;
+    font-size: 2.8rem;
     font-weight: 700;
     letter-spacing: 0.6px;
     padding: 10px;
 }
 .card-contenido p {
     color: #FDFDFD;
-    font-size: 16px;
+    font-size: 1.6rem;
     letter-spacing: 0.6px;
     padding: 10px;
 }
@@ -272,7 +276,7 @@ body {
     color: #FDFDFD;
     border: 0px;
     border-radius: 20px;
-    font-size: 14px;
+    font-size: 1.4rem;
     margin: 10px;
     padding: 10px;
 }
