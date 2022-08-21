@@ -325,6 +325,13 @@ body {
 .main-responsive {
     width: 80%;
     margin: 0 auto;
+    padding: 20px;
+}
+.main-responsive p{
+    padding: 20px 10px;
+}
+.main-responsive ul{
+    padding: 20px;
 }
 .main-responsive ul li{
     list-style-type: decimal;
@@ -347,4 +354,32 @@ body {
 }
 .principal a img {
     width: 100%;
+}
+
+@media (max-width: 480px) {
+    .main-responsive {
+        background-color: #C1CFC0;
+    }
+    .principal {
+        position: fixed;
+        width: 40px;
+        height: 40px;
+        bottom: 10px;
+        right: 10px;
+    }
+}
+@media only screen and (min-width: 481px) and (max-width: 767px){
+    .main-responsive {
+        background-color: #DAEAF1;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+    .main-responsive {
+        background-color: #E2C2B9;
+    }
+}
+@media only screen and (min-width: 1024px){
+    .main-responsive {
+        background-color: #cda6db;
+    }
 }
