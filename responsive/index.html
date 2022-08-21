@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/css/styles.css">
+    <title>Responsive design</title>
+</head>
+<body class="bg-responsive">
+    <header class="header">
+        <h1>Responsive design</h1>
+    </header>
+    <main class="main-responsive">
+        <h2>¿Para qué es Responsive Design?</h2>
+        <p>Es para que nuestro proyecto web pueda ser multiplataforma, que se pueda ver bien en un smartphone, desde una tablet, iPad y que se vean excelente desde una laptop o computadora de escritorio.<br>
+            Esto realizándolo siempre con buenas prácticas.Para empezar debemos saber:</p>
+        <h3>Media Queries</h3>
+        <p>Con los media queries podemos jugar con el layout, cuando la pantalla del dispositivo sea pequeña el contenido se ve de una forma, pero si está pantalla crece el contenido también lo hace sin perjudicar el diseño.<br>
+            Podemos cambiar la orientación de los contenedores, podemos cambiar su orden, incluso cambiar las dimensiones.</p>
+        <h3>Breakpoint</h3>    
+        <p>Son la dimensión en el viewport, es decir el width y el height de la pantalla, en donde vamos a generar un cambio.<br>
+            Este cambio es la forma en la que puedo reposicionar ciertos elementos o redimensionar ciertos contenedores, todo esto para que se vea bien la web app y sin importar el dispositivo en el que se abra.</p>
+        <h3>Min-Width</h3>
+        <p>Esto quiere decir que cuando la pantalla sea igual o más grande que el valor que coloquemos, el código que esté adentro del media querie se va a ejecutar.<br>
+            Pero si la pantalla es mayor a ese min-width habrá otro media querie que aplicará estilos diferentes.</p>
+        <h3>Max-Width</h3>
+        <p>Esto quiere decir que cuando la pantalla sea igual o más pequeña que el valor que coloquemos, el código que esté adentro del media querie se va a ejecutar.</p>
+        <h2>La mejor forma de aplicar media queries</h2>
+        <p>Tiene de nombre Mobile First o Mobile Only.<br>
+            Esto quiere decir que el proyecto ya debe estar diseñado para dispositivos mobile, ya no debemos preocuparnos por que se vea bien desde una laptop o computadora de escritorio.<br>
+            El diseño del proyecto va a partir desde un dispositivo mobile y desde ahí va a ir creciendo a los demás dispositivos con mayor pantalla.<br>
+            Si hacemos lo contrario de ir de una pantalla grande a una más pequeña, esto se llama solamente responsive design y no es lo que estamos buscando.</p>
+        <h4>Aplicando directo desde CSS con media queries</h4>
+        <ul>
+            <li>Arriba de los media queries vamos a tener el código base, que es el que está hecho y optimizado para dispositivos mobile.</li>
+            <li>Vamos a generar un breakpoint para realizar ciertos cambios en dispositivos más grandes.</li>
+            <li>Vamos a generar otro breakpoint que va a ser para una tablet o para computadoras con un viewport más pequeño como ser netbooks.</li>
+            <li>Luego vamos a generar otro breakpoint que será para computadoras de escritorio, desktop o dispositivos con pantallas más grandes.</li>
+        </ul>
+        <h4>Orden para aplicar los media queries</h4>
+        <p>Partimos desde los dispositivos más pequeños y terminamos con los dispositivos más grandes.<br>
+            Si lo hacemos de forma inversa tendremos problemas, ya que como CSS funciona en cascada, nunca se van a aplicar los estilos de los medias queries con un viewport más grande.</p>
+        <p>Empezamos por:</p>
+        <ul>
+            <li>Los celulares o dispositivos mobile.</li>
+            <li>Las tablets.</li>
+            <li>Laptops o computadores de escritorio.</li>
+        </ul>
+        <figure>
+            <img src="/src/img/tamanio-dispositivos.webp" alt="Tamaño dispositivos responsive">
+        </figure>
+    </main>
+    <div class="principal">
+        <a href="../index.html">
+            <img src="/src/img/hacia-atras.png" alt="Regresar al principal">
+        </a>
+    </div>
+</body>
+</html>
